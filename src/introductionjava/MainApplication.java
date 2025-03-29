@@ -1,9 +1,15 @@
 package introductionjava;
 
-import variables.ConversionTypes;
-import variables.PorteeVariables;
-import variables.VariablesPrimitives;
-import variables.VariablesReference;
+import JMD_L1_Variables.ConversionTypes;
+import JMD_L1_Variables.PorteeVariables;
+import JMD_L1_Variables.VariablesPrimitives;
+import JMD_L1_Variables.VariablesReference;
+import JMD_L2_Operations.OperationsArithmetiques;
+import JMD_L2_Operations.OperationsBitwise;
+import JMD_L2_Operations.OperationsLogiques;
+import JMD_L2_Operations.OperationsRelationnelles;
+import JMD_L3_Structures_Controles.Boucles;
+import JMD_L3_Structures_Controles.InstructionsConditionnelles;
 
 public class MainApplication {
 	/* 
@@ -38,6 +44,24 @@ public class MainApplication {
 
         System.out.println("\n--- Portée des Variables ---");
         PorteeVariables.main(args);
+        
+        System.out.println("\n--- Opérations Arithmétiques ---");
+        OperationsArithmetiques.main(args);
+
+        System.out.println("\n--- Opérations Relationnelles ---");
+        OperationsRelationnelles.main(args);
+        
+        System.out.println("\n--- Opérations Logiques ---");
+        OperationsLogiques.main(args);
+
+        System.out.println("\n--- Opérations Bitwise ---");
+        OperationsBitwise.main(args);
+        
+        System.out.println("\n--- Instructions Conditionnelles ---");
+        InstructionsConditionnelles.main(args);
+
+        System.out.println("\n--- Boucles ---");
+        Boucles.main(args);
 	}
 	
 	

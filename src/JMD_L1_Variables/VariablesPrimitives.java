@@ -1,4 +1,4 @@
-package variables;
+package JMD_L1_Variables;
 
 public class VariablesPrimitives {
 		
@@ -17,6 +17,8 @@ public class VariablesPrimitives {
         
         char lettre = 'A';           // Un caractère
         String message = "Hello world !"; // Un texte
+        
+        var variable = "yes"; // Permet de déclarer une variable sans spécifier son type explicitement
 
         System.out.println("Byte : " + petitNombre);
         System.out.println("valeurByte = " + valeurByte);
@@ -28,6 +30,7 @@ public class VariablesPrimitives {
         System.out.println("Boolean : " + estVrai);
         System.out.println("Char : " + lettre);
         System.out.println("Char : " + message);
+        System.out.println("Variable : " + variable);
         System.out.println("String : " + final_msg);
 	}
 	

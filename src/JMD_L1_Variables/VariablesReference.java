@@ -1,4 +1,4 @@
-package variables;
+package JMD_L1_Variables;
 
 public class VariablesReference {
 	
