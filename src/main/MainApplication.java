@@ -1,4 +1,4 @@
-package introductionjava;
+package main;
 
 import JMD_L1_Variables.ConversionTypes;
 import JMD_L1_Variables.PorteeVariables;
