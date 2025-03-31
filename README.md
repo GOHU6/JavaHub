@@ -1,1 +1,1 @@
-Start : /src/introductionjava/MainApplication.java
+Start : /src/main/MainApplication.java
