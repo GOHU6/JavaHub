@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ReferenceDataTypes {
 	
-	public void reference_data_types() {
+	public static void main(String[] args) {
         
 		//Reference data types
 
@@ -13,7 +13,12 @@ public class ReferenceDataTypes {
 		
 		System.out.println("/n----------------------------------/n");
 		
-        int[] numbers = {1, 2, 3, 12, 5,};					// Tableau de nombre
+		int number[];         								// Tableau déclaration 
+		number = new int[10]; 								// Tableau allocation
+		number[0] = 2;											
+		
+		// Autre maniere de faire
+        int[] numbers = {1, 2, 3, 12, 5};					// Initialisation explicite d'un tableau
         Arrays.sort(numbers);								// Tableau trié
         System.out.println("Tab : " + Arrays.toString(numbers));
 
@@ -29,7 +34,7 @@ public class ReferenceDataTypes {
 			{1, 2, 3, 4}, 
 			{5, 6, 7} 
 		};  	
-        System.out.println("Multidimensional Arrays : " + tab[1][2]);
+        System.out.println("Multidimensional Arrays : " + tab[1][2]);			// 2eme ligne 3eme colonne
         System.out.println("Complete matrix : " + Arrays.deepToString(tab)); 	// Matrice complète
         
         ArrayList<String> arraylist = new ArrayList<>();
@@ -39,8 +44,11 @@ public class ReferenceDataTypes {
         
         System.out.println("/n----------------------------------/n");
         
-        Personne personne = new Personne("Hugo", 20);     	// Déclaration d'un objet personnalisé
-        System.out.println("Name : " + personne.name + ", age : " + personne.age);
+        Personne p1 = new Personne("Hugo", 20);     	// Déclaration d'un objet personnalisé
+        System.out.println("Name : " + p1.name + ", age : " + p1.age);
+        
+        Personne p2 = new Personne("Clara", 25);     	// Déclaration d'un objet personnalisé
+        System.out.println(p1.getClass().equals(p2.getClass()));  // Si p2 était String et non un objet Personne alors false
     }
 }
 
@@ -52,4 +60,10 @@ class Personne { // Objet avec deux parametre
         this.name = name;
         this.age = age;
 	}
+}
+
+class MaClasse { // Explication de this.
+	String chaine = " test " ;
+	public String getChaine() { return chaine; } 
+	// est équivalent à public String getChaine() { return this.chaine; } 
 }

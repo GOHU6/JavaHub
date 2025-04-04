@@ -6,6 +6,11 @@ import JMD_L2_Operators.ArithmeticOperators;
 import JMD_L2_Operators.BitwiseOperators;
 import JMD_L2_Operators.LogicalOperators;
 import JMD_L3_Control_Flow.Loops;
+import JMD_L4_Functions_Methods_Class.AbstractChild;
+import JMD_L4_Functions_Methods_Class.EnumDaysOfWeek;
+import JMD_L4_Functions_Methods_Class.InterfaceImplementation;
+import JMD_L4_Functions_Methods_Class.MethodBasics;
+import JMD_L4_Functions_Methods_Class.StaticVsInstance;
 import JMD_L3_Control_Flow.ConditionalInstructions;
 import JMD_L2_Operators.ComparisonOperators;
 import JMD_L1_Variables_Types.Constants;
@@ -36,11 +41,10 @@ public class MainApplication {
 		
 		System.out.println("\n--- JMD L1 Variable Types ---");
         System.out.println("\n--- Primitive Data Types ---");
-        PrimitiveDataTypes.main(args); // Appel d'une fonction public static void main(String[] args) {}
+        PrimitiveDataTypes.main(args); 
 
         System.out.println("\n--- Reference Data Types ---");
-        ReferenceDataTypes referenceDataTypes = new ReferenceDataTypes();
-        referenceDataTypes.reference_data_types(); // Appel d'une fonction xxx() {}
+        ReferenceDataTypes.main(args);
         
         System.out.println("\n--- Print Variables ---");
         String name = "Hugo";
@@ -84,7 +88,37 @@ public class MainApplication {
         System.out.println("\n--- Loops ---");
         Loops.main(args);
         System.out.println("\n-----------------------------");
-
+		
+        System.out.println("\n--- JMD L4 Functions Methods Class ---");
+		StaticVsInstance.static_function();
+		// Erreur : StaticVsInstance.instance_function();
+		// Besoin de l'objet suivant
+		StaticVsInstance staticVsInstance = new StaticVsInstance();
+		staticVsInstance.instance_function();
+		
+		MethodBasics methodBasics = new MethodBasics();
+		methodBasics.public_function();
+		// methodBasics.private_function(); erreur car private
+		// methodBasics.protected_function(); erreur car pas le meme package
+		// methodBasics.package_private_function(); erreur car pas le meme package
+		
+		methodBasics.public_function_arg("Hello Mr ", 5);
+		int result = methodBasics.public_function_int();
+		System.out.println(result);
+		
+		// AbstractExample example = new AbstractExample(); erreur car class abstraite
+        AbstractChild child = new AbstractChild();
+        child.no_abstract_function();   // Hérité de la classe abstraite
+        child.abstract_function();   	// Implémenté dans la classe enfant
+        
+        InterfaceImplementation impl = new InterfaceImplementation();
+        impl.test();        			
+        impl.default_function();       	// Methode par defaut de l'interface
+        
+        EnumDaysOfWeek today = EnumDaysOfWeek.MONDAY;
+        System.out.println("Day : " + today); 
+        System.out.println(today.isWeekend());
+        
 	}
 	
 }

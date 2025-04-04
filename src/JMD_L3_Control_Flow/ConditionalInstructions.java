@@ -13,6 +13,9 @@ public class ConditionalInstructions {
         } else {
             System.out.println("You are a minor");
         }
+        // Autre maniere de construire un if
+        String valeur = age >= 18 ? "valeur-vraie" : "valeur-fausse";
+        System.out.println(valeur);
 
         // Instruction if-else avec logique combinée
         if (age >= 18 && isStudent) {
@@ -39,5 +42,14 @@ public class ConditionalInstructions {
                 System.out.println("It's another day");
                 break;
         }
+        
+        // Nouvelle syntaxe du switch
+        int position = 1;
+        boolean monteSurPodium = switch (position) {
+          case 1, 2, 3 -> true;
+          default      -> false;
+        };
+        System.out.println(monteSurPodium);
+        
     }
 }
