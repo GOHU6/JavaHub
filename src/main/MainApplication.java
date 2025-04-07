@@ -14,6 +14,7 @@ import JMD_L4_Functions_Methods_Class.StaticVsInstance;
 import JMD_L5_Generic.DoubleGeneric;
 import JMD_L5_Generic.SimpleGeneric;
 import JMD_L5_Generic.WildcardGeneric;
+import JMD_L6_Character_String.ManipulateString;
 import JMD_L3_Control_Flow.ConditionalInstructions;
 import JMD_L2_Operators.ComparisonOperators;
 
@@ -45,7 +46,7 @@ public class MainApplication {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome to JavaHub !"); // un commentaire
+		/*System.out.println("Welcome to JavaHub !"); // un commentaire
 		
 		System.out.println("\n--- JMD L1 Variable Types ---");
         System.out.println("\n--- Primitive Data Types ---");
@@ -152,9 +153,11 @@ public class MainApplication {
         List<Number> numbers = new ArrayList<>();
         WildcardGeneric.addinteger(numbers);
         WildcardGeneric.showlist(numbers);
-        System.out.println("\n-----------------------------");
+        System.out.println("\n-----------------------------");*/
 		
         System.out.println("\n--- JMD L6 Character Strings ---");
+        
+        ManipulateString.main(args);
 
 	}
 	

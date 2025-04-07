@@ -23,4 +23,5 @@ public class DoubleGeneric<K, V> {
     public String toString() {
         return key + " = " + value;
     }
+    
 }
