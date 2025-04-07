@@ -11,8 +11,16 @@ import JMD_L4_Functions_Methods_Class.EnumDaysOfWeek;
 import JMD_L4_Functions_Methods_Class.InterfaceImplementation;
 import JMD_L4_Functions_Methods_Class.MethodBasics;
 import JMD_L4_Functions_Methods_Class.StaticVsInstance;
+import JMD_L5_Generic.DoubleGeneric;
+import JMD_L5_Generic.SimpleGeneric;
+import JMD_L5_Generic.WildcardGeneric;
 import JMD_L3_Control_Flow.ConditionalInstructions;
 import JMD_L2_Operators.ComparisonOperators;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import JMD_L1_Variables_Types.Constants;
 import JMD_L1_Variables_Types.PrimitiveDataTypes;
 import JMD_L1_Variables_Types.ReferenceDataTypes;
@@ -118,7 +126,36 @@ public class MainApplication {
         EnumDaysOfWeek today = EnumDaysOfWeek.MONDAY;
         System.out.println("Day : " + today); 
         System.out.println(today.isWeekend());
-        
+        System.out.println("\n-----------------------------");
+		
+        System.out.println("\n--- JMD L5 Generics ---");
+        SimpleGeneric<String> simplestringgeneric = new SimpleGeneric<>();
+        simplestringgeneric.setSimpleGeneric("Hello");
+        System.out.println(simplestringgeneric);
+
+        SimpleGeneric<Integer> simpleintgeneric = new SimpleGeneric<>();
+        simpleintgeneric.setSimpleGeneric(123);
+        System.out.println(simpleintgeneric);
+
+        DoubleGeneric<String, Double> doublegeneric = new DoubleGeneric<>("Double", 50.0);
+        System.out.println(doublegeneric);
+
+        WildcardGeneric.simplegeneric("Hello Wildcard!");
+        WildcardGeneric.simplegeneric(3.14);
+
+        List<String> strings = Arrays.asList("Java", "Generics");
+        WildcardGeneric.showlist(strings);
+
+        List<Integer> integers = new ArrayList<>(Arrays.asList(1, 2, 3));
+        WildcardGeneric.shownumber(integers);
+
+        List<Number> numbers = new ArrayList<>();
+        WildcardGeneric.addinteger(numbers);
+        WildcardGeneric.showlist(numbers);
+        System.out.println("\n-----------------------------");
+		
+        System.out.println("\n--- JMD L6 Character Strings ---");
+
 	}
 	
 }
