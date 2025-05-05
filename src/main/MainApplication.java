@@ -15,6 +15,15 @@ import themes.basics.variables.ConstantsDemo;
 import themes.basics.variables.TypeCastingDemo;
 import themes.basics.variables.VariableScopeDemo;
 import themes.basics.variables.VariablesDemo;
+import themes.oop.abstraction.AbstractClassDemo;
+import themes.oop.abstraction.InterfaceDemo;
+import themes.oop.classes.ClassStructureDemo;
+import themes.oop.encapsulation.AccessModifiersDemo;
+import themes.oop.encapsulation.EncapsulationDemo;
+import themes.oop.inheritance.InheritanceDemo;
+import themes.oop.inheritance.SuperKeywordDemo;
+import themes.oop.polymorphism.OverrideOverloadDemo;
+import themes.oop.polymorphism.PolymorphismDemo;
 
 public class MainApplication {
 
@@ -46,7 +55,31 @@ public class MainApplication {
 		IfElseDemo.main(args);
 		SwitchDemo.main(args);
 		LoopsDemo.main(args);
-        
+		
+		
+		System.out.println("\n----- -------------------------- -----\n");
+
+		System.out.println("----- 1~ src/themes/opp/classes -----\n");
+		ClassStructureDemo.main(args);
+		
+		System.out.println("----- 2~ src/themes/opp/abstraction -----\n");
+		AbstractClassDemo.main(args);
+		InterfaceDemo.main(args);
+		
+		System.out.println("----- 3~ src/themes/opp/encapsulation -----\n");
+		EncapsulationDemo.main(args);
+		AccessModifiersDemo.main(args);
+		
+		System.out.println("----- 4~ src/themes/opp/inheritance -----\n");
+		InheritanceDemo.main(args);
+		SuperKeywordDemo.main(args);
+		
+		System.out.println("----- 5~ src/themes/opp/polymorphism -----\n");
+		PolymorphismDemo.main(args);
+		OverrideOverloadDemo.main(args);
+
+
+		
         /*
 		
         System.out.println("\n--- JMD L4 Functions Methods Class ---");
