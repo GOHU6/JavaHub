@@ -29,55 +29,80 @@ public class MainApplication {
 
 	public static void main(String[] args) {
 		
-		System.out.println("----- 1~ src/themes/basics/variables -----\n");
+		// === 1. BASICS / VARIABLES ===
+		// This section covers the fundamental concepts related to variable usage in Java.
+		System.out.println("----- 1 ~ BASICS / VARIABLES -----\n");
 		VariablesDemo.main(args);
 		VariableScopeDemo.main(args);
 		TypeCastingDemo.main(args);
 		ConstantsDemo.main(args);
 		
-		System.out.println("\n----- 2~ src/themes/basics/syntax -----\n");
+		// === 2. BASICS / SYNTAX ===
+		// This section includes general tips and tricks related to Java syntax.
+		System.out.println("\n----- 2 ~ BASICS / SYNTAX -----\n");
 		SyntaxTips.main(args);
 		
-		System.out.println("\n----- 3~ src/themes/basics/datatypes -----\n");
+		// === 3. BASICS / DATATYPES ===
+		// Demonstrates the different kinds of data types in Java including primitive types and reference types.
+		System.out.println("\n----- 3 ~ BASICS / DATATYPES -----\n");
 		PrimitiveTypesDemo.main(args);
 		ReferenceTypesDemo.main(args);
 		
-		System.out.println("\n----- 4~ src/themes/basics/operators -----\n");
+		// === 4. BASICS / OPERATORS ===
+		// Shows how to use arithmetic, relational, logical, and assignment operators in Java.
+		System.out.println("\n----- 4 ~ BASICS / OPERATORS -----\n");
 		OperatorsDemo.main(args);
 		
-		System.out.println("\n----- 5~ src/themes/basics/utils -----\n");
+		// === 5. BASICS / UTILS ===
+		// This section includes general-purpose utility demos related to Strings, math, arrays, and objects.
+		System.out.println("\n----- 5 ~ BASICS / UTILS -----\n");
 		StringDemo.main(args);
 		MathDemo.main(args);
 		ArraysDemo.main(args);
 		ObjectBasicsDemo.main(args);
 		
-		System.out.println("\n----- 6~ src/themes/basics/controlflow -----\n");
+		// === 6. BASICS / CONTROL FLOW ===
+		// Shows conditional statements and loop structures in Java.
+		System.out.println("\n----- 6 ~ BASICS / CONTROL FLOW -----\n");
 		IfElseDemo.main(args);
 		SwitchDemo.main(args);
 		LoopsDemo.main(args);
 		
-		
 		System.out.println("\n----- -------------------------- -----\n");
 
-		System.out.println("----- 1~ src/themes/opp/classes -----\n");
+		// === 1. OOP / CLASSES ===
+		// Shows how to define a basic class with attributes, constructor, and method.
+		System.out.println("----- 1 ~ OOP / CLASSES -----\n");
 		ClassStructureDemo.main(args);
 		
-		System.out.println("----- 2~ src/themes/opp/abstraction -----\n");
+		// === 2. OOP / ABSTRACTION ===
+		// Demonstrates abstraction using both abstract classes and interfaces.
+		// Abstract classes define partial implementations.
+		// Interfaces define a contract without implementation.
+		System.out.println("----- 2 ~ OOP / ABSTRACTION -----\n");
 		AbstractClassDemo.main(args);
 		InterfaceDemo.main(args);
 		
-		System.out.println("----- 3~ src/themes/opp/encapsulation -----\n");
+		// === 3. OOP / ENCAPSULATION ===
+		// Demonstrates data hiding and access control using private fields and public getters/setters,
+		// as well as Java's access modifiers and the 'final' keyword.
+		System.out.println("----- 3 ~ OOP / ENCAPSULATION -----\n");
 		EncapsulationDemo.main(args);
 		AccessModifiersDemo.main(args);
 		
-		System.out.println("----- 4~ src/themes/opp/inheritance -----\n");
+		// === 4. OOP / INHERITANCE ===
+		// Shows how subclasses inherit from parent classes and use 'super' to call parent methods or constructors.
+		System.out.println("----- 4 ~ OOP / INHERITANCE -----\n");
 		InheritanceDemo.main(args);
 		SuperKeywordDemo.main(args);
 		
-		System.out.println("----- 5~ src/themes/opp/polymorphism -----\n");
+		// === 5. OOP / POLYMORPHISM ===
+		// Demonstrates method overloading (compile-time polymorphism) and method overriding (runtime polymorphism).
+		System.out.println("----- 5 ~ OOP / POLYMORPHISM -----\n");
 		PolymorphismDemo.main(args);
 		OverrideOverloadDemo.main(args);
 
+		System.out.println("\n----- -------------------------- -----\n");
 
 		
         /*

@@ -6,31 +6,33 @@ package themes.oop.abstraction;
  * 
  * Demonstrates basic interface usage
  * Interfaces define a contract that implementing classes must follow.
- * They are used to specify what should be done not how.
+ * They are used to specify what should be done not how !! 
  */
-interface Vehicle {
-    void drive();
-    int getSpeed();
+interface Animals {
+    void makeSound(); // default abstract method (public and abstract)
 }
 
-public class InterfaceDemo implements Vehicle {
-
-    private int speed = 60;
-
-    // Mandatory
-    public void drive() {
-        System.out.println("Driving a car");
+class Cat implements Animals {
+    public void makeSound() {
+        System.out.println("Meow!");
     }
+}
+
+class Dog implements Animals {
+    public void makeSound() {
+    System.out.println("Woof!");
+    }
+}
+
+public class InterfaceDemo {
     
-    // Mandatory
-    public int getSpeed() {
-        return speed;
-    }
-
     public static void main(String[] args) {
-        InterfaceDemo car = new InterfaceDemo();
-        car.drive();
-        System.out.println("Speed: " + car.getSpeed() + " km/h");
+        
+        Animals myCat = new Cat();
+        Animals myDog = new Dog();
+
+        myCat.makeSound(); // Meow!
+        myDog.makeSound(); // Woof!
         
         System.out.println("\n✅ Interface demo complete\n\n");
     }

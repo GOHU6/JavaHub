@@ -12,10 +12,10 @@ package themes.oop.encapsulation;
  */
 public class AccessModifiersDemo {
 
-    public int publicField = 1;
-    protected int protectedField = 2;
-    int defaultField = 3; // package-private
-    private int privateField = 4;
+    public int publicField = 1; // Accessible everywhere
+    protected int protectedField = 2; // Accessible in the same package or by inheritance
+    int defaultField = 3; // Accessible in the same package (package-private)
+    private int privateField = 4; // Accessible only in this class
 
     public void showAccess() {
         System.out.println("Public: " + publicField);
@@ -26,7 +26,13 @@ public class AccessModifiersDemo {
 
     public static void main(String[] args) {
         AccessModifiersDemo demo = new AccessModifiersDemo();
-        demo.showAccess();
+        
+        System.out.println(demo.publicField); // OK
+        System.out.println(demo.protectedField); // OK (same package)
+        System.out.println(demo.defaultField); // OK (same package)
+        // System.out.println(demo.privateField); // Error : private
+
+        demo.showAccess(); // Displays everything from inside the class
         
         System.out.println("\n✅ Access modifiers demo complete\n\n");
     }

@@ -6,14 +6,13 @@ package themes.oop.inheritance;
  * 
  * Demonstrates single inheritance in Java
  */
-class Animal {
-	
+class Animals { // Super class
     void eat() {
         System.out.println("This animal eats food");
     }
 }
 
-public class InheritanceDemo extends Animal {
+public class InheritanceDemo extends Animals { // Child class
 
     void bark() {
         System.out.println("The dog barks.");

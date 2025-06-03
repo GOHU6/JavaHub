@@ -9,9 +9,9 @@ package themes.oop.abstraction;
  * You cannot instantiate an abstract class.
  */
 abstract class Animals {
-    abstract void makeSound(); // Abstract method
+    abstract void makeSound(); // Abstract method (without body)
 
-    void breathe() {
+    void breathe() { // Concrete method (with body)
         System.out.println("Breathing...");
     }
 }
@@ -19,7 +19,7 @@ abstract class Animals {
 public class AbstractClassDemo extends Animals {
 
     @Override
-    void makeSound() {
+    void makeSound() { // Forces child classes to provide their own version !! 
         System.out.println("Meow!");
     }
 
@@ -31,3 +31,14 @@ public class AbstractClassDemo extends Animals {
         System.out.println("\n✅ Abstract class demo complete\n\n");
     }
 }
+
+// public class AbstractClassDemo2 extends Animals {
+
+//     @Override
+//     void makeSound() { // Forces child classes to provide their own version !! 
+//         System.out.println("Woof!");
+//     }
+
+//     ...
+// }
+
