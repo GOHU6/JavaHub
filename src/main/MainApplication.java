@@ -1,29 +1,33 @@
 package main;
 
-import themes.basics.controlflow.IfElseDemo;
-import themes.basics.controlflow.LoopsDemo;
-import themes.basics.controlflow.SwitchDemo;
-import themes.basics.datatypes.PrimitiveTypesDemo;
-import themes.basics.datatypes.ReferenceTypesDemo;
-import themes.basics.operators.OperatorsDemo;
-import themes.basics.syntax.SyntaxTips;
-import themes.basics.utils.ArraysDemo;
-import themes.basics.utils.MathDemo;
-import themes.basics.utils.ObjectBasicsDemo;
-import themes.basics.utils.StringDemo;
-import themes.basics.variables.ConstantsDemo;
-import themes.basics.variables.TypeCastingDemo;
-import themes.basics.variables.VariableScopeDemo;
-import themes.basics.variables.VariablesDemo;
-import themes.oop.abstraction.AbstractClassDemo;
-import themes.oop.abstraction.InterfaceDemo;
-import themes.oop.classes.ClassStructureDemo;
-import themes.oop.encapsulation.AccessModifiersDemo;
-import themes.oop.encapsulation.EncapsulationDemo;
-import themes.oop.inheritance.InheritanceDemo;
-import themes.oop.inheritance.SuperKeywordDemo;
-import themes.oop.polymorphism.OverrideOverloadDemo;
-import themes.oop.polymorphism.PolymorphismDemo;
+import themes.LMD_01_basics.controlflow.IfElseDemo;
+import themes.LMD_01_basics.controlflow.LoopsDemo;
+import themes.LMD_01_basics.controlflow.SwitchDemo;
+import themes.LMD_01_basics.datatypes.PrimitiveTypesDemo;
+import themes.LMD_01_basics.datatypes.ReferenceTypesDemo;
+import themes.LMD_01_basics.operators.OperatorsDemo;
+import themes.LMD_01_basics.syntax.SyntaxTips;
+import themes.LMD_01_basics.utils.ArraysDemo;
+import themes.LMD_01_basics.utils.MathDemo;
+import themes.LMD_01_basics.utils.ObjectBasicsDemo;
+import themes.LMD_01_basics.utils.StringDemo;
+import themes.LMD_01_basics.variables.ConstantsDemo;
+import themes.LMD_01_basics.variables.TypeCastingDemo;
+import themes.LMD_01_basics.variables.VariableScopeDemo;
+import themes.LMD_01_basics.variables.VariablesDemo;
+import themes.LMD_02_oop.abstraction.AbstractClassDemo;
+import themes.LMD_02_oop.abstraction.InterfaceDemo;
+import themes.LMD_02_oop.classes.ClassStructureDemo;
+import themes.LMD_02_oop.encapsulation.AccessModifiersDemo;
+import themes.LMD_02_oop.encapsulation.EncapsulationDemo;
+import themes.LMD_02_oop.inheritance.InheritanceDemo;
+import themes.LMD_02_oop.inheritance.SuperKeywordDemo;
+import themes.LMD_02_oop.polymorphism.OverrideOverloadDemo;
+import themes.LMD_02_oop.polymorphism.PolymorphismDemo;
+import themes.LMD_03_exceptions.CustomExceptions;
+import themes.LMD_03_exceptions.FinallyBlockDemo;
+import themes.LMD_03_exceptions.ThrowsKeywordDemo;
+import themes.LMD_03_exceptions.TryCatchDemo;
 
 public class MainApplication {
 
@@ -104,7 +108,16 @@ public class MainApplication {
 
 		System.out.println("\n----- -------------------------- -----\n");
 
+		// === 1. EXCEPTIONS ===
+		// Demonstrates how catch all type of exceptions
+		System.out.println("----- 1 ~ EXCEPTIONS -----\n");
+		TryCatchDemo.main(args);
+		FinallyBlockDemo.main(args);
+		ThrowsKeywordDemo.main(args);
+		CustomExceptions.main(args);
 		
+		System.out.println("\n----- -------------------------- -----\n");
+
         /*
 		
         System.out.println("\n--- JMD L4 Functions Methods Class ---");
