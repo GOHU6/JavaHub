@@ -1,4 +1,4 @@
-package themes.LMD_03_exceptions;
+package themes.LMD_04_exceptions;
 
 import java.io.IOException;
 

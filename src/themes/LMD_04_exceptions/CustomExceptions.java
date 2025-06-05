@@ -1,4 +1,4 @@
-package themes.LMD_03_exceptions;
+package themes.LMD_04_exceptions;
 
 /**
  * Reference : https://www.jmdoudoux.fr/java/dej/chap-exceptions.htm#exceptions

@@ -24,15 +24,18 @@ import themes.LMD_02_oop.inheritance.InheritanceDemo;
 import themes.LMD_02_oop.inheritance.SuperKeywordDemo;
 import themes.LMD_02_oop.polymorphism.OverrideOverloadDemo;
 import themes.LMD_02_oop.polymorphism.PolymorphismDemo;
-import themes.LMD_03_exceptions.CustomExceptions;
-import themes.LMD_03_exceptions.FinallyBlockDemo;
-import themes.LMD_03_exceptions.ThrowsKeywordDemo;
-import themes.LMD_03_exceptions.TryCatchDemo;
+import themes.LMD_03_generics.basics.GenericClassDemo;
+import themes.LMD_03_generics.basics.GenericMethodDemo;
+import themes.LMD_03_generics.basics.TypeInferenceDemo;
+import themes.LMD_04_exceptions.CustomExceptions;
+import themes.LMD_04_exceptions.FinallyBlockDemo;
+import themes.LMD_04_exceptions.ThrowsKeywordDemo;
+import themes.LMD_04_exceptions.TryCatchDemo;
 
 public class MainApplication {
 
 	public static void main(String[] args) {
-		
+		/*
 		// === 1. BASICS / VARIABLES ===
 		// This section covers the fundamental concepts related to variable usage in Java.
 		System.out.println("----- 1 ~ BASICS / VARIABLES -----\n");
@@ -108,6 +111,16 @@ public class MainApplication {
 
 		System.out.println("\n----- -------------------------- -----\n");
 
+		*/
+		
+		GenericClassDemo.main(args);
+		GenericMethodDemo.main(args);
+		TypeInferenceDemo.main(args);
+		
+		/*
+		
+		System.out.println("\n----- -------------------------- -----\n");
+		
 		// === 1. EXCEPTIONS ===
 		// Demonstrates how catch all type of exceptions
 		System.out.println("----- 1 ~ EXCEPTIONS -----\n");
