@@ -1,0 +1,11 @@
+| Syntaxe | Où ?            | Utilité principale                                               |
+| ------- | --------------- | ---------------------------------------------------------------- |
+| `<T>`   | Déclaration     | Tu déclares un type générique pour une classe ou une méthode |
+| `<?>`   | Appel/paramètre | Tu acceptes n’importe quel type en lecture uniquement        |
+
+| Ce que je veux faire                       | Syntaxe à utiliser        |
+| ------------------------------------------ | ------------------------- |
+| Lire une liste de n’importe quoi           | `List<?>`                 |
+| Lire une liste de Number ou sous-classes   | `List<? extends Number>`  |
+| Ajouter dans une liste de Integer ou super | `List<? super Integer>`   |
+| Créer une méthode/générique                | `<T>` dans la déclaration |
