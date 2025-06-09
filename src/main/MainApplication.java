@@ -27,10 +27,15 @@ import themes.LMD_02_oop.polymorphism.PolymorphismDemo;
 import themes.LMD_03_generics.basics.GenericClassDemo;
 import themes.LMD_03_generics.basics.GenericMethodDemo;
 import themes.LMD_03_generics.basics.TypeInferenceDemo;
+import themes.LMD_03_generics.wildcards.BoundedWildcardDemo;
+import themes.LMD_03_generics.wildcards.UnboundedWildcardDemo;
 import themes.LMD_04_exceptions.CustomExceptions;
 import themes.LMD_04_exceptions.FinallyBlockDemo;
 import themes.LMD_04_exceptions.ThrowsKeywordDemo;
 import themes.LMD_04_exceptions.TryCatchDemo;
+import themes.LMD_05_enums.EnumBasicsDemo;
+import themes.LMD_05_enums.EnumIterationDemo;
+import themes.LMD_05_enums.EnumWithFieldsDemo;
 
 public class MainApplication {
 
@@ -111,13 +116,18 @@ public class MainApplication {
 
 		System.out.println("\n----- -------------------------- -----\n");
 
-		*/
-		
+		// === 1. GENERICS / BASICS ===
+		// Defining generic classes and methods using type parameters <T>
+		System.out.println("----- 1 ~ GENERICS / BASICS -----\n");
 		GenericClassDemo.main(args);
 		GenericMethodDemo.main(args);
 		TypeInferenceDemo.main(args);
 		
-		/*
+		// === 2. GENERICS / WILDCARDS ===
+		// Wildcards generics <?>, ? extends T and ? super T
+		System.out.println("----- 2 ~ GENERICS / WILDCARDS -----\n");
+		BoundedWildcardDemo.main(args);
+		UnboundedWildcardDemo.main(args);
 		
 		System.out.println("\n----- -------------------------- -----\n");
 		
@@ -130,66 +140,10 @@ public class MainApplication {
 		CustomExceptions.main(args);
 		
 		System.out.println("\n----- -------------------------- -----\n");
-
-        /*
-		
-        System.out.println("\n--- JMD L4 Functions Methods Class ---");
-		StaticVsInstance.static_function();
-		// Erreur : StaticVsInstance.instance_function();
-		// Besoin de l'objet suivant
-		StaticVsInstance staticVsInstance = new StaticVsInstance();
-		staticVsInstance.instance_function();
-		
-		MethodBasics methodBasics = new MethodBasics();
-		methodBasics.public_function();
-		// methodBasics.private_function(); erreur car private
-		// methodBasics.protected_function(); erreur car pas le meme package
-		// methodBasics.package_private_function(); erreur car pas le meme package
-		
-		methodBasics.public_function_arg("Hello Mr ", 5);
-		int result = methodBasics.public_function_int();
-		System.out.println(result);
-		
-		// AbstractExample example = new AbstractExample(); erreur car class abstraite
-        AbstractChild child = new AbstractChild();
-        child.no_abstract_function();   // Hérité de la classe abstraite
-        child.abstract_function();   	// Implémenté dans la classe enfant
-        
-        InterfaceImplementation impl = new InterfaceImplementation();
-        impl.test();        			
-        impl.default_function();       	// Methode par defaut de l'interface
-        
-        EnumDaysOfWeek today = EnumDaysOfWeek.MONDAY;
-        System.out.println("Day : " + today); 
-        System.out.println(today.isWeekend());
-        System.out.println("\n-----------------------------");
-		
-        System.out.println("\n--- JMD L5 Generics ---");
-        SimpleGeneric<String> simplestringgeneric = new SimpleGeneric<>();
-        simplestringgeneric.setSimpleGeneric("Hello");
-        System.out.println(simplestringgeneric);
-
-        SimpleGeneric<Integer> simpleintgeneric = new SimpleGeneric<>();
-        simpleintgeneric.setSimpleGeneric(123);
-        System.out.println(simpleintgeneric);
-
-        DoubleGeneric<String, Double> doublegeneric = new DoubleGeneric<>("Double", 50.0);
-        System.out.println(doublegeneric);
-
-        WildcardGeneric.simplegeneric("Hello Wildcard!");
-        WildcardGeneric.simplegeneric(3.14);
-
-        List<String> strings = Arrays.asList("Java", "Generics");
-        WildcardGeneric.showlist(strings);
-
-        List<Integer> integers = new ArrayList<>(Arrays.asList(1, 2, 3));
-        WildcardGeneric.shownumber(integers);
-
-        List<Number> numbers = new ArrayList<>();
-        WildcardGeneric.addinteger(numbers);
-        WildcardGeneric.showlist(numbers);
-        System.out.println("\n-----------------------------");*/
-		
+		*/
+		EnumBasicsDemo.main(args);
+		EnumWithFieldsDemo.main(args);
+		EnumIterationDemo.main(args);
 
 	}
 }
