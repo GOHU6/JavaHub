@@ -36,10 +36,14 @@ import themes.LMD_04_exceptions.TryCatchDemo;
 import themes.LMD_05_enums.EnumBasicsDemo;
 import themes.LMD_05_enums.EnumIterationDemo;
 import themes.LMD_05_enums.EnumWithFieldsDemo;
+import themes.LMD_06_annotations.CustomAnnotationDemo;
+import themes.LMD_06_annotations.OverrideAnnotationDemo;
+import themes.LMD_06_annotations.RetentionPolicyDemo;
+import themes.LMD_06_annotations.SuppressWarningsDemo;
 
 public class MainApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		/*
 		// === 1. BASICS / VARIABLES ===
 		// This section covers the fundamental concepts related to variable usage in Java.
@@ -138,12 +142,23 @@ public class MainApplication {
 		FinallyBlockDemo.main(args);
 		ThrowsKeywordDemo.main(args);
 		CustomExceptions.main(args);
+		*/
 		
 		System.out.println("\n----- -------------------------- -----\n");
-		*/
+		
+		// === 1. ENUMS ===
+		// Demonstrates core features of Java enums
+		System.out.println("----- 1 ~ ENUMS -----\n");
 		EnumBasicsDemo.main(args);
 		EnumWithFieldsDemo.main(args);
 		EnumIterationDemo.main(args);
+		
+		System.out.println("\n----- -------------------------- -----\n");
+		
+		OverrideAnnotationDemo.main(args);
+		SuppressWarningsDemo.main(args);
+		CustomAnnotationDemo.main(args);
+		RetentionPolicyDemo.main(args);
 
 	}
 }

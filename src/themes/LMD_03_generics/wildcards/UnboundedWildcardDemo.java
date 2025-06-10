@@ -23,6 +23,8 @@ public class UnboundedWildcardDemo {
 		
 		List<Integer> numbers = Arrays.asList(1,2,3);
 		getList(numbers);
+		
+		System.out.println("\n✅ Unbounded wildcard demo complete\n\n");
 
 	}
 }

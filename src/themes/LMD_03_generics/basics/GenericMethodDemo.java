@@ -24,5 +24,7 @@ public class GenericMethodDemo {
 
         System.out.print("Numbers: \n");
         printArray(numbers);
+        
+        System.out.println("\n✅ Generic method demo complete\n\n");
 	}
 }

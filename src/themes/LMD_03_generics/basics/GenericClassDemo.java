@@ -28,5 +28,7 @@ public class GenericClassDemo {
 		Box<Integer> intBox = new Box<>(); // Can be an Integer
 		intBox.set(123);
 		System.out.println("Integer box contains: " + intBox.get());
+		
+		System.out.println("\n✅ Generic class demo complete\n\n");
 	}
 }

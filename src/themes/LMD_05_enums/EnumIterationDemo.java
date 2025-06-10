@@ -16,5 +16,8 @@ public class EnumIterationDemo {
 		for (Direction dir : Direction.values()) {
 			System.out.println(dir + " (ordinal: " + dir.ordinal() + ")");
 		}
+		
+		System.out.println("\n✅ Enum iteration demo complete\n\n");
+
 	}
 }

@@ -28,5 +28,8 @@ public class TypeInferenceDemo {
 
         Container<Double> doubleContainer = new Container<>(42.0); // Type inference using diamond operator <>
         System.out.println("Container holds: " + doubleContainer.get());
+        
+        System.out.println("\n✅ Type inference demo complete\n\n");
+
 	}
 }

@@ -17,5 +17,8 @@ public class EnumBasicsDemo {
 		Day today = Day.WEDNESDAY;
 		
 		System.out.println("Today is : " + today);
+		
+		System.out.println("\n✅ Enum basics demo complete\n\n");
+
 	}
 }

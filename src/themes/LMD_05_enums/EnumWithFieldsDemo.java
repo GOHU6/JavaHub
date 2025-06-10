@@ -42,5 +42,8 @@ public class EnumWithFieldsDemo {
 		for (Planet p : Planet.values()) {
             System.out.printf("%s: gravity = %.2f m/s²%n", p, p.surfaceGravity());
         }
+		
+		System.out.println("\n✅ Enum with fields demo complete\n\n");
+
 	}
 }
