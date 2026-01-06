@@ -43,6 +43,6 @@ public class SyntaxTips {
         // int x, y, z;
         // x = y = z = 50; if variables have same value
     	
-        System.out.println("\n✅ Syntax demo complete\n\n");
+        System.out.println("\n Syntax demo complete\n\n");
     }
 }

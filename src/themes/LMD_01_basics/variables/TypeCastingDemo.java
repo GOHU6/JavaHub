@@ -36,6 +36,6 @@ public class TypeCastingDemo {
         System.out.println("char letter = 'A'; → ASCII = " + ascii);
         System.out.println("char from 66 = (char) 66; → " + backToChar);
 
-        System.out.println("\n✅ Type casting demo complete\n\n");
+        System.out.println("\n Type casting demo complete\n\n");
 	}
 }

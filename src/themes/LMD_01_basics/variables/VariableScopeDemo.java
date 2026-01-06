@@ -37,6 +37,6 @@ public class VariableScopeDemo {
         System.out.println("New instance variable value: " + userName);
         System.out.println("New static variable value: " + appName);
 
-        System.out.println("\n✅ Variable scope demo complete\n\n");
+        System.out.println("\n Variable scope demo complete\n\n");
     }
 }

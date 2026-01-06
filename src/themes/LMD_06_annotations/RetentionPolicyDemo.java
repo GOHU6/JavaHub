@@ -28,7 +28,7 @@ public class RetentionPolicyDemo {
     	System.out.println("Only annotations with RUNTIME retention are visible at runtime.");
     	System.out.println("Annotations with SOURCE or CLASS retention are not accessible via reflection.");
     	
-		System.out.println("\n✅ Retention policy demo complete\n\n");
+		System.out.println("\n Retention policy demo complete\n\n");
 
     }
 }

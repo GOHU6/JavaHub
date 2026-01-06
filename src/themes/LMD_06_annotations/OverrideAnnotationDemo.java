@@ -33,7 +33,7 @@ public class OverrideAnnotationDemo {
 		Animal pet = new Dog();
 		pet.makeSound();
 		
-		System.out.println("\n✅ Override annotation demo complete\n\n");
+		System.out.println("\n Override annotation demo complete\n\n");
 
 	}
 }

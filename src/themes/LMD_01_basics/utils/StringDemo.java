@@ -104,6 +104,6 @@ public class StringDemo {
         Date now = new Date();
         System.out.println("Current date: " + now.toString());
 
-        System.out.println("\n✅ String demo complete\n\n");
+        System.out.println("\n String demo complete\n\n");
     }
 }

@@ -36,6 +36,6 @@ public class SuperKeywordDemo extends Person {
         SuperKeywordDemo student = new SuperKeywordDemo("Alice", 22);
         student.showInfo();
         
-        System.out.println("\n✅ Super keyword demo complete\n\n");
+        System.out.println("\n Super keyword demo complete\n\n");
     }
 }

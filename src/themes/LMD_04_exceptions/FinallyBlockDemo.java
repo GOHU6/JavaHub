@@ -23,6 +23,6 @@ public class FinallyBlockDemo {
 		
 		System.out.println("Program continues after " + text);
 		
-		System.out.println("\n✅ Finally block demo complete\n\n");
+		System.out.println("\n Finally block demo complete\n\n");
 	}
 }

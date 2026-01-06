@@ -31,6 +31,6 @@ public class SwitchDemo {
         };
         System.out.println("On the podium: " + podium);
         
-        System.out.println("\n✅ Switch demo complete\n\n");
+        System.out.println("\n Switch demo complete\n\n");
     }
 }

@@ -61,6 +61,6 @@ public class OperatorsDemo {
         System.out.println("obj instanceof String: " + (obj instanceof String)); 	// Checks if obj is an instance of String
         System.out.println("obj instanceof Integer: " + (obj instanceof Integer)); 	// Checks if obj is an instance of Integer
 	
-        System.out.println("\n✅ Operators demo complete\n\n");
+        System.out.println("\n Operators demo complete\n\n");
 	}
 }

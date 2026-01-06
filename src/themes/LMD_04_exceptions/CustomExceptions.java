@@ -32,6 +32,6 @@ public class CustomExceptions {
 			e.printStackTrace();
 		}
 		
-		System.out.println("\n✅ Custom exceptions demo complete\n\n");
+		System.out.println("\n Custom exceptions demo complete\n\n");
 	}
 }

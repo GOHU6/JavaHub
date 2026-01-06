@@ -91,6 +91,6 @@ public class ArraysDemo {
         names.remove("Bob");
         System.out.println("After removing 'Bob': " + names);
 
-        System.out.println("\n✅ Array demo complete\n\n");
+        System.out.println("\n Array demo complete\n\n");
     }
 }

@@ -43,7 +43,7 @@ public class ObjectBasicsDemo {
         // Get people by index
         peoples.get(0).setName("Alicia");
 
-        System.out.println("\n✅ Object demo complete\n\n");
+        System.out.println("\n Object demo complete\n\n");
     }
 }
 

@@ -23,6 +23,6 @@ public class PolymorphismDemo extends Shape {
         Shape shape = new PolymorphismDemo(); // Upcasting
         shape.draw(); // Calls overridden method
         
-        System.out.println("\n✅ Polymorphism demo complete\n\n");
+        System.out.println("\n Polymorphism demo complete\n\n");
     }
 }

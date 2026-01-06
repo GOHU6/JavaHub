@@ -18,7 +18,7 @@ public class EnumBasicsDemo {
 		
 		System.out.println("Today is : " + today);
 		
-		System.out.println("\n✅ Enum basics demo complete\n\n");
+		System.out.println("\n Enum basics demo complete\n\n");
 
 	}
 }

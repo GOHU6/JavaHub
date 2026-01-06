@@ -34,6 +34,6 @@ public class InterfaceDemo {
         myCat.makeSound(); // Meow!
         myDog.makeSound(); // Woof!
         
-        System.out.println("\n✅ Interface demo complete\n\n");
+        System.out.println("\n Interface demo complete\n\n");
     }
 }

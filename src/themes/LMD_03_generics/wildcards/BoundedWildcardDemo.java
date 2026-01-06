@@ -41,7 +41,7 @@ public class BoundedWildcardDemo {
 		List<Number> numberList = new ArrayList<>(); 
 		addNumber(numberList);
 		
-        System.out.println("\n✅ Bounded wildcard demo complete\n\n");
+        System.out.println("\n Bounded wildcard demo complete\n\n");
 
 	}
 }

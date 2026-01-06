@@ -33,6 +33,6 @@ public class IfElseDemo {
         String value = age >= 18 ? "true" : "false";
         System.out.println("String value = age >= 18 ? \"true\" : \"false\" -> " + value);
         
-        System.out.println("\n✅ IfElse demo complete\n\n");
+        System.out.println("\n IfElse demo complete\n\n");
     }
 }

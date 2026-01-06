@@ -19,6 +19,6 @@ public class ConstantsDemo {
         // Uncommenting below will cause compile-time error
         // MAX_USERS = 50;
         
-        System.out.println("\n✅ Constants demo complete\n\n");
+        System.out.println("\n Constants demo complete\n\n");
     }
 }

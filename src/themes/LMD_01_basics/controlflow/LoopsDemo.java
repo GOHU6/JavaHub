@@ -52,6 +52,6 @@ public class LoopsDemo {
             k++;
         } while (k < 3);
         
-        System.out.println("\n✅ Loops demo complete\n\n");
+        System.out.println("\n Loops demo complete\n\n");
     }
 }

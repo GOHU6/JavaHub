@@ -28,7 +28,7 @@ public class AbstractClassDemo extends Animals {
         cat.makeSound();
         cat.breathe();
         
-        System.out.println("\n✅ Abstract class demo complete\n\n");
+        System.out.println("\n Abstract class demo complete\n\n");
     }
 }
 

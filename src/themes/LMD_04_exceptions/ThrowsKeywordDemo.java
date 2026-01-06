@@ -23,6 +23,6 @@ public class ThrowsKeywordDemo {
 			e.printStackTrace();
 		}
 		
-		System.out.println("\n✅ Throws keyword demo complete\n\n");
+		System.out.println("\n Throws keyword demo complete\n\n");
 	}
 }

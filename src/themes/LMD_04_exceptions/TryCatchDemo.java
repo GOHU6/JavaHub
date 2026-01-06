@@ -18,6 +18,6 @@ public class TryCatchDemo {
 			e.printStackTrace(); // Prints full stack trace for debugging
 		}
 		
-		System.out.println("\n✅ Try catch demo complete\n\n");
+		System.out.println("\n Try catch demo complete\n\n");
 	}
 }

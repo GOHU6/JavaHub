@@ -37,6 +37,6 @@ public class ClassStructureDemo {
         ClassStructureDemo car = new ClassStructureDemo("Toyota", 2025);
         car.displayInfo();
         
-        System.out.println("\n✅ Class structure demo complete\n\n");
+        System.out.println("\n Class structure demo complete\n\n");
     }
 }

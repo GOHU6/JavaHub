@@ -46,6 +46,6 @@ public class PrimitiveTypesDemo {
         System.out.println("\n----- Boolean type -----");
         System.out.println("boolean flag = " + flag + " -> represents logical true/false values");
 
-        System.out.println("\n✅ Primitive types demo complete\n\n");
+        System.out.println("\n Primitive types demo complete\n\n");
     }
 }

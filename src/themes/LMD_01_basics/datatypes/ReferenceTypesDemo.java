@@ -34,6 +34,6 @@ public class ReferenceTypesDemo {
         System.out.println("\n----- Null Reference -----");
         System.out.println("String empty: " + empty);
         
-        System.out.println("\n✅ Reference types demo complete\n\n");
+        System.out.println("\n Reference types demo complete\n\n");
     }
 }

@@ -81,6 +81,6 @@ public class MathDemo {
         decimal = new BigDecimal("0.222").setScale(2, RoundingMode.UP);
         System.out.println("UP of 0.222 = " + decimal);
 
-        System.out.println("\n✅ Math demo complete\n\n");
+        System.out.println("\n Math demo complete\n\n");
     }
 }

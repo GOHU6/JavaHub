@@ -20,6 +20,6 @@ public class OverrideOverloadDemo {
         demo.show(42);
         demo.show("Java");
         
-        System.out.println("\n✅ Override overload demo complete\n\n");
+        System.out.println("\n Override overload demo complete\n\n");
     }
 }

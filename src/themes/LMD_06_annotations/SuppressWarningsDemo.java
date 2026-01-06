@@ -22,7 +22,7 @@ public class SuppressWarningsDemo {
 	public static void main(String[] args) {
 		unsafe();
 		
-		System.out.println("\n✅ Suppress warnings demo complete\n\n");
+		System.out.println("\n Suppress warnings demo complete\n\n");
 
 	}
 }

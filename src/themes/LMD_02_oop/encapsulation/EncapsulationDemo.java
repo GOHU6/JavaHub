@@ -37,6 +37,6 @@ public class EncapsulationDemo {
         person.setAge(30);
         System.out.println(person.getName() + " is " + person.getAge() + " years old.");
         
-        System.out.println("\n✅ Encapsulation demo complete\n\n");
+        System.out.println("\n Encapsulation demo complete\n\n");
     }
 }

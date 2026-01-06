@@ -23,6 +23,6 @@ public class InheritanceDemo extends Animals { // Child class
         dog.eat();   // Inherited method
         dog.bark();  // Own method
         
-        System.out.println("\n✅ Inheritance demo complete\n\n");
+        System.out.println("\n Inheritance demo complete\n\n");
     }
 }

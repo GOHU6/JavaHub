@@ -43,7 +43,7 @@ public class EnumWithFieldsDemo {
             System.out.printf("%s: gravity = %.2f m/s²%n", p, p.surfaceGravity());
         }
 		
-		System.out.println("\n✅ Enum with fields demo complete\n\n");
+		System.out.println("\n Enum with fields demo complete\n\n");
 
 	}
 }

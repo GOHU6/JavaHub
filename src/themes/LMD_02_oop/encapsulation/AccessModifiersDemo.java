@@ -34,6 +34,6 @@ public class AccessModifiersDemo {
 
         demo.showAccess(); // Displays everything from inside the class
         
-        System.out.println("\n✅ Access modifiers demo complete\n\n");
+        System.out.println("\n Access modifiers demo complete\n\n");
     }
 }

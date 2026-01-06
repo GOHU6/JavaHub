@@ -33,7 +33,7 @@ public class CustomAnnotationDemo {
 		
 		annotatedMethod();
 		
-		System.out.println("\n✅ Custom annotation demo complete\n\n");
+		System.out.println("\n Custom annotation demo complete\n\n");
 
 	}
 }

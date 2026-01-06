@@ -19,6 +19,6 @@ public class VariablesDemo {
         System.out.println("Age: " + age);
         System.out.println("Height: " + height + "m");
         
-        System.out.println("\n✅ Variables declaration and initialization demo complete\n\n");
+        System.out.println("\n Variables declaration and initialization demo complete\n\n");
     }
 }
