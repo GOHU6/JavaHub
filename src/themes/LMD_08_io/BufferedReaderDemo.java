@@ -2,12 +2,11 @@ package themes.LMD_08_io;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-
 /**
  * Reference : https://www.jmdoudoux.fr/java/dej/chap-flux.htm
  * Section: 15
- * 
  */
+
 public class BufferedReaderDemo {
 	protected String source;
   
@@ -18,6 +17,8 @@ public class BufferedReaderDemo {
     
 	public static void main(String[] args) {
 	    new BufferedReaderDemo("src/themes/LMD_08_io/source.txt");
+
+        System.out.println("\n Buffered Reader demo complete\n\n");
 	}
 
     private void lecture() { 
