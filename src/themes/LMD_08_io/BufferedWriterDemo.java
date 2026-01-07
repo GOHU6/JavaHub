@@ -7,8 +7,8 @@ import java.util.Date;
 /**
  * Reference : https://www.jmdoudoux.fr/java/dej/chap-flux.htm
  * Section: 15
- * 
  */
+
 public class BufferedWriterDemo {
 	protected String destination;
   
@@ -19,6 +19,8 @@ public class BufferedWriterDemo {
     
 	public static void main(String[] args) {
 	    new BufferedWriterDemo("src/themes/LMD_08_io/destination.txt");
+
+        System.out.println("\n Buffered Writer demo complete\n\n");
 	}
 
     private void traitement() { 

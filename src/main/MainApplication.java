@@ -49,6 +49,11 @@ import themes.LMD_07_collections.sets.TreeSetDemo;
 import themes.LMD_08_io.BufferedReaderDemo;
 import themes.LMD_08_io.BufferedWriterDemo;
 import themes.LMD_08_io.FileDemo;
+import themes.LMD_09_streams.LambdaSyntaxDemo;
+import themes.LMD_09_streams.OptionalDemo;
+import themes.LMD_09_streams.StreamCreationDemo;
+import themes.LMD_09_streams.StreamIntermediateOps;
+import themes.LMD_09_streams.StreamTerminalOps;
 
 public class MainApplication {
 
@@ -189,6 +194,15 @@ public class MainApplication {
 		BufferedWriterDemo.main(args);
 		FileDemo.main(args);
 
+		System.out.println("\n----- -------------------------- -----\n");
+		
+		// === STREAMS ===
+		System.out.println("----- 9.1 ~ STREAMS -----\n");
+		LambdaSyntaxDemo.main(args);
+		OptionalDemo.main(args);
+		StreamCreationDemo.main(args);
+		StreamIntermediateOps.main(args);
+		StreamTerminalOps.main(args);
 		
 	}
 }

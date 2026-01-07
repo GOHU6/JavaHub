@@ -3,6 +3,10 @@ package themes.LMD_08_io;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+/**
+ * Reference : https://www.jmdoudoux.fr/java/dej/chap-flux.htm
+ * Section: 15
+ */
 
 public class FileDemo {
     protected String nomFichier;
@@ -16,6 +20,8 @@ public class FileDemo {
 
     public static void main(String args[]) {
         new FileDemo("src/themes/LMD_08_io/source.txt");
+
+        System.out.println("\n File demo complete\n\n");
     }
 
     private void traitement() {
