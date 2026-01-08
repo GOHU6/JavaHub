@@ -54,6 +54,11 @@ import themes.LMD_09_streams.OptionalDemo;
 import themes.LMD_09_streams.StreamCreationDemo;
 import themes.LMD_09_streams.StreamIntermediateOps;
 import themes.LMD_09_streams.StreamTerminalOps;
+import themes.LMD_10_threads.ExecutorsDemo;
+import themes.LMD_10_threads.RunnableInterfaceDemo;
+import themes.LMD_10_threads.SynchronizationDemo;
+import themes.LMD_10_threads.ThreadCreation;
+import themes.LMD_10_threads.ThreadLifecycleDemo;
 
 public class MainApplication {
 
@@ -203,6 +208,16 @@ public class MainApplication {
 		StreamCreationDemo.main(args);
 		StreamIntermediateOps.main(args);
 		StreamTerminalOps.main(args);
+
+		System.out.println("\n----- -------------------------- -----\n");
+		
+		// === THREADS ===
+		System.out.println("----- 9.1 ~ THREADS -----\n");
+		ThreadCreation.main(args);
+		RunnableInterfaceDemo.main(args);
+		SynchronizationDemo.main(args);
+		ThreadLifecycleDemo.main(args);
+		ExecutorsDemo.main(args);
 		
 	}
 }
